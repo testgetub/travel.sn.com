@@ -1,0 +1,147 @@
+       
+
+       body{
+            background-color:white;
+            
+            
+        }
+
+    
+/* container hold the image and text(text over the image ) header  i) */
+.container {
+  position: relative;
+  
+ 
+}
+ 
+  /* the frist text over image */
+ .centered {
+    text-align: center;
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-40%, -45%);
+}
+
+/* second text over image */
+.bottom-left {
+
+  position: absolute;
+  bottom: 63px;
+  left: 100px;
+        }
+ /* till here it is belong to the header  i) */
+
+
+ ul{
+     list-style-type:none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+ }
+ li{
+     float:left;
+ }
+ 
+ li a{
+     display:block;
+     color:white;
+     text-align: center;
+     text-decoration: none;
+     padding:13px;
+     
+ }
+ 
+ li a:hover{ background-color:#AC132E;}
+
+
+ .figure {        /* these are belong to text under image section(caption)  ii------*/
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: 4px;
+  width: 20%;
+  float: left;
+}
+
+.figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  
+}    /* ------- till here it about text under the image     ii ------------*/
+
+ 
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+ .column{      /* ------- till here it about the image     iii ------------*/
+ 
+  float: left;
+  padding: 5px;
+  margin-left: 0px;
+  margin-top: 1px;
+ 
+       
+ }
+ 
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    }      /* ------- till here it about the image     iii ------------*/
+
+h6{
+    
+    
+     color: black;
+     text-align: left;
+     font-size: 18px;
+
+}
+
+
+#mytajheader{   /* taj.html  */
+         color:black;
+          text-align: center;
+         font-family:bold;
+         font-size:50px;
+         }
+
+
+ #mynoteheader{  /* travel.html */
+         color:black;
+          text-align: center;
+         font-family:bold;
+         font-size:50px;
+         }    
+
+ .headerr{ /* travel.html  */
+   color:black;
+          text-align:left;
+         font-family:bold;
+         font-size:20px;
+         }    
+           
+
+           .A4 { /* Styling the content of the page like- padding, font-size, font color etc. humayon tomb*/
+                                                           
+            background-color:lightsteelblue;
+            font-family: Georgia;
+            padding: 25px 25px;
+            margin: 11px;
+            margin-top: 50px;
+        }
+
+ 
+
+     
